@@ -1,0 +1,155 @@
+*{
+  font-family: 'Lato', sans-serif !important;
+
+}
+
+body{
+  margin: 0 !important;
+}
+
+.ce-chats-container,  .ce-chat-list{
+  background-color: rgb(213, 199, 221) !important;
+}
+
+
+.ce-active-chat-card {
+  background-color: #9d7cc9 !important;
+  border: 2px solid #987dbb !important;
+  border-radius: 0px !important;
+}
+
+.ce-chat-subtitle-text {
+  color: #ffffff !important;
+  margin-top: 10px !important;
+}
+
+.ce-chat-form-container {
+  color: rgb(233, 232, 232) !important;
+  background-color: rgb(93, 70, 109) !important;
+  padding-bottom: 40px !important;
+}
+
+.ce-text-input {
+  border-radius: 6px !important;
+  border: 1px solid #3b2a50 !important;
+}
+
+.ce-primary-button {
+  border-radius: 6px !important;
+  background-color: #7554a0 !important;
+  position: relative;
+  bottom: 1px;
+}
+
+.ce-danger-button {
+  background-color: white !important;
+  border-radius: 22px !important;
+}
+
+.ce-settings {
+  background-color: rgb(240, 240, 240) !important;
+}
+
+.ce-autocomplete-input {
+  border-radius: 6px !important;
+  border: 1px solid #735b91 !important;
+}
+
+.ce-autocomplete-options {
+  border-radius: 6px !important;
+  border: 1px solid #715692 !important;
+  background-color: white !important;
+}
+
+.ce-chat-settings-container {
+  padding-top: 12px !important;
+}
+
+.ce-chat-avatars-row {
+  display: none !important;
+}
+
+.ce-input{
+
+}
+
+.ce-textarea-input{
+
+}
+
+.ce-message-bubble {
+  background-color: #7554a0 !important;
+}
+.ce-my-message-bubble{
+
+}
+
+.ce-chat-title-text{
+  color:#715692 !important;
+}
+
+
+#ce-feed-container{
+  overflow: hidden !important;
+}
+
+
+/* LOG IN FORM */
+.wrapper {
+  height: 100vh;
+	width: 100%;
+  background: rgb(117,84,160);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1rem 2.5rem;
+  border-radius: 0.2rem;
+  background-color: white;
+  border: none;
+  width: 100%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  outline: none;
+  margin-bottom: 25px;
+}
+
+.title {
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 2.3em;;
+}
+
+.form{
+  padding: 50px;
+}
+
+.button {
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 5px;
+  width: 90%;
+}
+
+
+.button:hover {
+  background-color: #e7a310;
+  color: white;
+}
+
+.error{
+  color: rgb(255, 122, 122);
+}
