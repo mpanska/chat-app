@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {ChatEngine} from 'react-chat-engine'
+import './App.css'
+import Feed from './components/Feed'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return(
+        <ChatEngine
+            height="100vh"
+            projectID="b02dc551-0a42-41c8-9695-1e1a516fc845"
+
+            // the name of a currentlu logged user
+            userName="chatAdmin"
+            // password:
+            userSecret="123123"
+            //render new custom component
+            renderChatFeed={(chatAppProps) => <Feed {...chatAppProps}/>}
+        />
+    )
+
+    
 }
-
-export default App;
+export default App
